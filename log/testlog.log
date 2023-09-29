@@ -1,0 +1,688 @@
+2023-09-28 17:04:43,890 - Logger_File -INFO - get all users api run
+2023-09-28 17:04:43,934 - Logger_File -INFO - validating response body
+2023-09-28 17:04:43,936 - Logger_File -INFO - validating status code
+2023-09-28 17:06:14,859 - Logger_File -INFO - it is api testing - retreive all users
+2023-09-28 17:06:17,361 - Logger_File -INFO - get all users api run
+2023-09-28 17:06:17,391 - Logger_File -INFO - validating response body
+2023-09-28 17:06:17,392 - Logger_File -INFO - validating status code
+2023-09-28 17:16:09,685 - Logger_File -INFO - it is api testing - retreive all users
+2023-09-28 17:16:12,516 - Logger_File -INFO - get all users api run
+2023-09-28 17:16:12,545 - Logger_File -INFO - validating response body
+2023-09-28 17:16:12,548 - Logger_File -INFO - validating status code
+2023-09-28 17:21:32,877 - Logger_File -INFO - it is api testing - retreive all users
+2023-09-28 17:21:35,431 - Logger_File -INFO - get all users api run
+2023-09-28 17:21:35,463 - Logger_File -INFO - validating response body
+2023-09-28 17:21:35,464 - Logger_File -INFO - validating status code
+2023-09-28 17:28:32,467 - Logger_File -INFO - get single user api run 
+2023-09-28 17:28:32,503 - Logger_File -INFO - validating response body
+2023-09-28 17:28:32,510 - Logger_File -INFO - validating status code
+2023-09-28 17:29:05,524 - Logger_File -INFO - get single user api run 
+2023-09-28 17:29:05,554 - Logger_File -INFO - validating response body
+2023-09-28 17:29:05,555 - Logger_File -INFO - validating status code
+2023-09-28 17:30:50,623 - Logger_File -INFO - get single user api run 
+2023-09-28 17:30:50,656 - Logger_File -INFO - validating response body
+2023-09-28 17:30:50,657 - Logger_File -INFO - validating status code
+2023-09-28 17:41:24,044 - Logger_File -INFO - retreiving single user/cus_OgZimuZ3pnxx9q
+2023-09-28 17:43:09,313 - Logger_File -INFO - retreiving single user is :/cus_OgZimuZ3pnxx9q
+2023-09-28 17:43:10,109 - Logger_File -INFO - json path id iscus_OgZimuZ3pnxx9q
+2023-09-28 17:43:10,127 - Logger_File -INFO - json path name is Sayed
+2023-09-28 17:43:10,147 - Logger_File -INFO - the user id is for Sayed
+2023-09-28 17:50:30,042 - Logger_File -INFO - retreiving single user is : /cus_OgZimuZ3pnxx9q
+2023-09-28 17:50:30,799 - Logger_File -INFO - json path id iscus_OgZimuZ3pnxx9q
+2023-09-28 17:50:30,819 - Logger_File -INFO - json path name is Sayed
+2023-09-28 17:50:30,836 - Logger_File -INFO - the user id is for Sayed
+2023-09-28 17:50:30,876 - Logger_File -INFO - 3445 S 144th St
+2023-09-28 17:50:30,956 - Logger_File -INFO - en-US
+2023-09-28 17:50:30,975 - Logger_File -INFO - 22
+2023-09-28 17:50:31,005 - Logger_File -INFO - 6
+2023-09-28 18:15:57,598 - Logger_File -INFO - test execution startedorg.testng.TestRunner@45fd9a4d
+2023-09-28 18:15:57,647 - Logger_File -INFO - ValidateJsonResponse
+2023-09-28 18:15:59,771 - Logger_File -INFO - retreiving single user is : /cus_OgZimuZ3pnxx9q
+2023-09-28 18:16:00,668 - Logger_File -INFO - json path id iscus_OgZimuZ3pnxx9q
+2023-09-28 18:16:00,689 - Logger_File -INFO - json path name is Sayed
+2023-09-28 18:16:00,710 - Logger_File -INFO - the user id is for Sayed
+2023-09-28 18:16:00,788 - Logger_File -INFO - 3445 S 144th St
+2023-09-28 18:16:00,869 - Logger_File -INFO - en-US
+2023-09-28 18:16:00,890 - Logger_File -INFO - 22
+2023-09-28 18:16:00,918 - Logger_File -INFO - 6
+2023-09-28 18:16:00,922 - Logger_File -INFO - test passed successfully
+2023-09-28 18:16:00,923 - Logger_File -INFO - method name: ValidateJsonResponse
+2023-09-28 18:16:00,974 - Logger_File -INFO -  end of executionorg.testng.TestRunner@45fd9a4d
+2023-09-28 18:18:30,237 - Logger_File -INFO - test execution startedorg.testng.TestRunner@12ed9db6
+2023-09-28 18:18:30,299 - Logger_File -INFO - ValidateJsonResponse
+2023-09-28 18:18:32,589 - Logger_File -INFO - retreiving single user is : /cus_OgZimuZ3pnxx9q
+2023-09-28 18:18:33,287 - Logger_File -INFO - json path id iscus_OgZimuZ3pnxx9q
+2023-09-28 18:18:33,305 - Logger_File -INFO - json path name is Sayed
+2023-09-28 18:18:33,323 - Logger_File -INFO - the user id is for Sayed
+2023-09-28 18:18:33,367 - Logger_File -INFO - 3445 S 144th St
+2023-09-28 18:18:33,481 - Logger_File -INFO - en-US
+2023-09-28 18:18:33,495 - Logger_File -INFO - 22
+2023-09-28 18:18:33,516 - Logger_File -INFO - 6
+2023-09-28 18:18:33,520 - Logger_File -INFO - test passed successfully
+2023-09-28 18:18:33,521 - Logger_File -INFO - method name: ValidateJsonResponse
+2023-09-28 18:18:33,534 - Logger_File -INFO - getAllUsers
+2023-09-28 18:18:33,800 - Logger_File -INFO - get all users api run
+2023-09-28 18:18:33,801 - Logger_File -INFO - validating response body
+2023-09-28 18:18:33,802 - Logger_File -INFO - validating status code
+2023-09-28 18:18:33,815 - Logger_File -INFO - test failed
+2023-09-28 18:18:33,816 - Logger_File -INFO - method name : getAllUsers
+2023-09-28 18:18:33,817 - Logger_File -INFO - getSingleUser
+2023-09-28 18:18:34,015 - Logger_File -INFO - get single user api run 
+2023-09-28 18:18:34,016 - Logger_File -INFO - validating response body
+2023-09-28 18:18:34,016 - Logger_File -INFO - validating status code
+2023-09-28 18:18:34,017 - Logger_File -INFO - test passed successfully
+2023-09-28 18:18:34,018 - Logger_File -INFO - method name: getSingleUser
+2023-09-28 18:18:34,045 - Logger_File -INFO -  end of executionorg.testng.TestRunner@12ed9db6
+2023-09-28 18:32:08,093 - Logger_File -INFO - test execution startedorg.testng.TestRunner@530712d
+2023-09-28 18:32:08,117 - Logger_File -INFO - it is before test method
+2023-09-28 18:32:08,147 - Logger_File -INFO - ValidateJsonResponse
+2023-09-28 18:32:10,717 - Logger_File -INFO - retreiving single user is : /cus_OgZimuZ3pnxx9q
+2023-09-28 18:32:11,596 - Logger_File -INFO - json path id iscus_OgZimuZ3pnxx9q
+2023-09-28 18:32:11,645 - Logger_File -INFO - json path name is Sayed
+2023-09-28 18:32:11,668 - Logger_File -INFO - the user id is for Sayed
+2023-09-28 18:32:11,725 - Logger_File -INFO - 3445 S 144th St
+2023-09-28 18:32:11,845 - Logger_File -INFO - en-US
+2023-09-28 18:32:11,864 - Logger_File -INFO - 22
+2023-09-28 18:32:11,892 - Logger_File -INFO - 6
+2023-09-28 18:32:11,901 - Logger_File -INFO - test passed successfully
+2023-09-28 18:32:11,902 - Logger_File -INFO - method name: ValidateJsonResponse
+2023-09-28 18:32:11,946 - Logger_File -INFO - getAllUsers
+2023-09-28 18:32:12,188 - Logger_File -INFO - get all users -api
+2023-09-28 18:32:12,188 - Logger_File -INFO - validating response body{
+  "object": "list",
+  "data": [
+    {
+      "id": "cus_Oi8txj28IHLbX0",
+      "object": "customer",
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": "Seattle WA",
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "balance": 0,
+      "created": 1695762931,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "trainer4@toptechschool.us",
+      "invoice_prefix": "D6EDC7D6",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "Sayed4",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+        "no"
+      ],
+      "shipping": null,
+      "tax_exempt": "none",
+      "test_clock": null
+    },
+    {
+      "id": "cus_Oi8kEWaU7v0J0v",
+      "object": "customer",
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": "Seattle WA",
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "balance": 0,
+      "created": 1695762439,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "trainer3@toptechschool.us",
+      "invoice_prefix": "692784E6",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "Sayed3",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+        "yes"
+      ],
+      "shipping": null,
+      "tax_exempt": "none",
+      "test_clock": null
+    },
+    {
+      "id": "cus_Oi8MWb68bY0xDb",
+      "object": "customer",
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": "Seattle WA",
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "balance": 0,
+      "created": 1695760940,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "trainer2@toptechschool.us",
+      "invoice_prefix": "A6D1B600",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "Sayed2",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [],
+      "shipping": null,
+      "tax_exempt": "none",
+      "test_clock": null
+    },
+    {
+      "id": "cus_Oi8AwAb4OUB71t",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1695760270,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "trainer@toptechschool.us",
+      "invoice_prefix": "FFA66FC9",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "Sayed",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [],
+      "shipping": null,
+      "tax_exempt": "none",
+      "test_clock": null
+    },
+    {
+      "id": "cus_OhjgmNirDsh8F3",
+      "object": "customer",
+      "address": {
+        "city": "kabul",
+        "country": "AF",
+        "line1": "kabul city",
+        "line2": "Khairkhana",
+        "postal_code": "2400",
+        "state": ""
+      },
+      "balance": 0,
+      "created": 1695669184,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": "second customer",
+      "discount": null,
+      "email": "hameedsadat1983@yahoo.com",
+      "invoice_prefix": "D85C9AD8",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "hameedsadat",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [],
+      "shipping": {
+        "address": {
+          "city": "",
+          "country": "AF",
+          "line1": "",
+          "line2": "",
+          "postal_code": "",
+          "state": ""
+        },
+        "name": "",
+        "phone": ""
+      },
+      "tax_exempt": "none",
+      "test_clock": null
+    },
+    {
+      "id": "cus_OgZimuZ3pnxx9q",
+      "object": "customer",
+      "address": {
+        "city": "Seattle, Tukwila",
+        "country": "US",
+        "line1": "3445 S 144th St",
+        "line2": "",
+        "postal_code": "98168",
+        "state": "WA"
+      },
+      "balance": 0,
+      "created": 1695401445,
+      "currency": "usd",
+      "default_source": null,
+      "delinquent": false,
+      "description": "first customer",
+      "discount": null,
+      "email": "sayed.sadatibrahim@gmail.com",
+      "invoice_prefix": "9D18D2D8",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "Sayed",
+      "next_invoice_sequence": 1,
+      "phone": "+12536529199",
+      "preferred_locales": [
+        "en-US"
+      ],
+      "shipping": {
+        "address": {
+          "city": "Seattle, Tukwila",
+          "country": "US",
+          "line1": "3445 S 144th St",
+          "line2": "",
+          "postal_code": "98168",
+          "state": "WA"
+        },
+        "name": "Sayed",
+        "phone": "+12536529199"
+      },
+      "tax_exempt": "none",
+      "test_clock": null
+    }
+  ],
+  "has_more": false,
+  "url": "/v1/customers"
+}
+2023-09-28 18:32:12,190 - Logger_File -INFO - validating status code200
+2023-09-28 18:32:12,193 - Logger_File -INFO - test passed successfully
+2023-09-28 18:32:12,193 - Logger_File -INFO - method name: getAllUsers
+2023-09-28 18:32:12,195 - Logger_File -INFO - getSingleUser
+2023-09-28 18:32:12,400 - Logger_File -INFO - get single user api test 
+2023-09-28 18:32:12,401 - Logger_File -INFO - response body is :{
+  "id": "cus_OgZimuZ3pnxx9q",
+  "object": "customer",
+  "address": {
+    "city": "Seattle, Tukwila",
+    "country": "US",
+    "line1": "3445 S 144th St",
+    "line2": "",
+    "postal_code": "98168",
+    "state": "WA"
+  },
+  "balance": 0,
+  "created": 1695401445,
+  "currency": "usd",
+  "default_source": null,
+  "delinquent": false,
+  "description": "first customer",
+  "discount": null,
+  "email": "sayed.sadatibrahim@gmail.com",
+  "invoice_prefix": "9D18D2D8",
+  "invoice_settings": {
+    "custom_fields": null,
+    "default_payment_method": null,
+    "footer": null,
+    "rendering_options": null
+  },
+  "livemode": false,
+  "metadata": {},
+  "name": "Sayed",
+  "next_invoice_sequence": 1,
+  "phone": "+12536529199",
+  "preferred_locales": [
+    "en-US"
+  ],
+  "shipping": {
+    "address": {
+      "city": "Seattle, Tukwila",
+      "country": "US",
+      "line1": "3445 S 144th St",
+      "line2": "",
+      "postal_code": "98168",
+      "state": "WA"
+    },
+    "name": "Sayed",
+    "phone": "+12536529199"
+  },
+  "tax_exempt": "none",
+  "test_clock": null
+}
+2023-09-28 18:32:12,401 - Logger_File -INFO - validating status code is : 200
+2023-09-28 18:32:12,405 - Logger_File -INFO - test passed successfully
+2023-09-28 18:32:12,406 - Logger_File -INFO - method name: getSingleUser
+2023-09-28 18:32:12,428 - Logger_File -INFO -  end of executionorg.testng.TestRunner@530712d
+2023-09-28 18:58:46,952 - Logger_File -INFO - test execution startedorg.testng.TestRunner@2df6226d
+2023-09-28 18:58:46,980 - Logger_File -INFO - it is before test method
+2023-09-28 18:58:47,014 - Logger_File -INFO - createUser
+2023-09-28 18:58:50,017 - Logger_File -INFO - the status code is  : 200
+2023-09-28 18:58:50,017 - Logger_File -INFO - the new user id is : 
+2023-09-28 18:58:50,027 - Logger_File -INFO - test passed successfully
+2023-09-28 18:58:50,028 - Logger_File -INFO - method name: createUser
+2023-09-28 18:58:50,056 - Logger_File -INFO - getSingleUser
+2023-09-28 18:58:50,345 - Logger_File -INFO - get all users -api
+2023-09-28 18:58:50,346 - Logger_File -INFO - validating response body{
+  "object": "list",
+  "data": [
+    {
+      "id": "cus_Oixubt9q2PxnaK",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1695952729,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": "sdet",
+      "discount": null,
+      "email": "sarem@toptechschool.us",
+      "invoice_prefix": "4C069285",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "Hamidullah Sarem",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [],
+      "shipping": null,
+      "tax_exempt": "none",
+      "test_clock": null
+    },
+    {
+      "id": "cus_Oi8txj28IHLbX0",
+      "object": "customer",
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": "Seattle WA",
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "balance": 0,
+      "created": 1695762931,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "trainer4@toptechschool.us",
+      "invoice_prefix": "D6EDC7D6",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "Sayed4",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+        "no"
+      ],
+      "shipping": null,
+      "tax_exempt": "none",
+      "test_clock": null
+    },
+    {
+      "id": "cus_Oi8kEWaU7v0J0v",
+      "object": "customer",
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": "Seattle WA",
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "balance": 0,
+      "created": 1695762439,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "trainer3@toptechschool.us",
+      "invoice_prefix": "692784E6",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "Sayed3",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [
+        "yes"
+      ],
+      "shipping": null,
+      "tax_exempt": "none",
+      "test_clock": null
+    },
+    {
+      "id": "cus_Oi8MWb68bY0xDb",
+      "object": "customer",
+      "address": {
+        "city": null,
+        "country": null,
+        "line1": "Seattle WA",
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "balance": 0,
+      "created": 1695760940,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "trainer2@toptechschool.us",
+      "invoice_prefix": "A6D1B600",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "Sayed2",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [],
+      "shipping": null,
+      "tax_exempt": "none",
+      "test_clock": null
+    },
+    {
+      "id": "cus_Oi8AwAb4OUB71t",
+      "object": "customer",
+      "address": null,
+      "balance": 0,
+      "created": 1695760270,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "trainer@toptechschool.us",
+      "invoice_prefix": "FFA66FC9",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "Sayed",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [],
+      "shipping": null,
+      "tax_exempt": "none",
+      "test_clock": null
+    },
+    {
+      "id": "cus_OhjgmNirDsh8F3",
+      "object": "customer",
+      "address": {
+        "city": "kabul",
+        "country": "AF",
+        "line1": "kabul city",
+        "line2": "Khairkhana",
+        "postal_code": "2400",
+        "state": ""
+      },
+      "balance": 0,
+      "created": 1695669184,
+      "currency": null,
+      "default_source": null,
+      "delinquent": false,
+      "description": "second customer",
+      "discount": null,
+      "email": "hameedsadat1983@yahoo.com",
+      "invoice_prefix": "D85C9AD8",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "hameedsadat",
+      "next_invoice_sequence": 1,
+      "phone": null,
+      "preferred_locales": [],
+      "shipping": {
+        "address": {
+          "city": "",
+          "country": "AF",
+          "line1": "",
+          "line2": "",
+          "postal_code": "",
+          "state": ""
+        },
+        "name": "",
+        "phone": ""
+      },
+      "tax_exempt": "none",
+      "test_clock": null
+    },
+    {
+      "id": "cus_OgZimuZ3pnxx9q",
+      "object": "customer",
+      "address": {
+        "city": "Seattle, Tukwila",
+        "country": "US",
+        "line1": "3445 S 144th St",
+        "line2": "",
+        "postal_code": "98168",
+        "state": "WA"
+      },
+      "balance": 0,
+      "created": 1695401445,
+      "currency": "usd",
+      "default_source": null,
+      "delinquent": false,
+      "description": "first customer",
+      "discount": null,
+      "email": "sayed.sadatibrahim@gmail.com",
+      "invoice_prefix": "9D18D2D8",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "Sayed",
+      "next_invoice_sequence": 1,
+      "phone": "+12536529199",
+      "preferred_locales": [
+        "en-US"
+      ],
+      "shipping": {
+        "address": {
+          "city": "Seattle, Tukwila",
+          "country": "US",
+          "line1": "3445 S 144th St",
+          "line2": "",
+          "postal_code": "98168",
+          "state": "WA"
+        },
+        "name": "Sayed",
+        "phone": "+12536529199"
+      },
+      "tax_exempt": "none",
+      "test_clock": null
+    }
+  ],
+  "has_more": false,
+  "url": "/v1/customers"
+}
+2023-09-28 18:58:50,348 - Logger_File -INFO - validating status code200
+2023-09-28 18:58:50,353 - Logger_File -INFO - test passed successfully
+2023-09-28 18:58:50,353 - Logger_File -INFO - method name: getSingleUser
+2023-09-28 18:58:50,356 - Logger_File -INFO - ValidateJsonResponse
+2023-09-28 18:58:50,618 - Logger_File -INFO - retreiving single user is : 
+2023-09-28 18:58:51,438 - Logger_File -INFO - json path id isnull
+2023-09-28 18:58:51,455 - Logger_File -INFO - json path name is null
+2023-09-28 18:58:51,477 - Logger_File -INFO - the user id is for null
+2023-09-28 18:58:51,540 - Logger_File -INFO - 
+2023-09-28 18:58:51,647 - Logger_File -INFO - 
+2023-09-28 18:58:51,676 - Logger_File -INFO - 4
+2023-09-28 18:58:51,734 - Logger_File -INFO - test failed
+2023-09-28 18:58:51,737 - Logger_File -INFO - method name : ValidateJsonResponse
+2023-09-28 18:58:51,778 - Logger_File -INFO -  end of executionorg.testng.TestRunner@2df6226d
