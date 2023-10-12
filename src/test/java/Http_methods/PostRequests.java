@@ -10,6 +10,7 @@ import org.json.simple.JSONObject;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
+import core.BaseClass;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
@@ -24,19 +25,22 @@ public class PostRequests {
 	 @Ignore
 	 @Test
 		public void createUser1() {
-			Response response =	given().auth().basic(secret_key, "").
-					param("name", "Tomy3").
-					param("job"," Sdettrainer2").
-					param("email", "tomy2@hotmail.com").
-					param("country", "Paris,France").
-					post("https://api.stripe.com/v1/customers");
-			
+		 
+			 
+			Response response = given().auth().basic(secret_key, "")
+					.param("name", "Shaker")
+					.param("email", "Shaker@toptechschool.us")
+					.param("description", "sdet")
+					.when().post("https://api.stripe.com/v1/customers");
+				
 			response.prettyPeek();
 			
 			
 	 }
 		
-		 @Ignore
+	 
+	 
+		 @Ignore	
 		@Test		// create paylaoad with parameters
 		public void createUsers2() {
 			Response response =	given().
@@ -48,6 +52,10 @@ public class PostRequests {
 					param("address", "Austin").
 					post("https://testapi.toptechschool.us/api/register");
 			
+			
+			
+			
+			
 			response.prettyPeek();
 			
 			
@@ -56,20 +64,20 @@ public class PostRequests {
 		@Test            // create payload using Map/HashMap
 		public void createUser3()	{
 			
-			Map <String, Object> map = new HashMap<String, Object>();
+			Map<String, Object> map = new HashMap<String, Object>();
 		
-		map.put("first_name", "jimy");
-		map.put("last_name"," jim");
-		map.put("username", "jim123");
-		map.put("email", "jimi@yahoo.com");
-		map.put("phone_number", "55553355");
-		map.put("address", "Florida");
 		
-		Response response = given().contentType(ContentType.JSON).
-		body(map).
-		post("https://reqres.in/api/users");
 		
-		response.prettyPrint();
+		
+		map.put("name", "Shack");
+		map.put("email", "Shack@toptechschool.us");
+		map.put("description", "sdet");
+		Response response = given().auth().basic(secret_key, "").contentType("application/x-www-form-urlencoded").
+		params(map).when().
+		post("https://api.stripe.com/v1/customers");
+		
+		//response.prettyPrint();
+		response.prettyPeek();
 		
 		
 		} 
@@ -83,9 +91,12 @@ public class PostRequests {
 			request.put("Job", "Manual Software Tester");
 			request.put("role", "Assistant lead");
 			
-			ValidatableResponse response1 = given().contentType(ContentType.JSON).
+			
+			
+					given().contentType(ContentType.JSON).
 					body(request.toJSONString()).
-					when().post("https://reqres.in/api/users").then().statusCode(201).log().all();
+					when().post("https://reqres.in/api/users").
+					then().statusCode(201).log().all();
 			
 					
 		}
@@ -97,9 +108,9 @@ public class PostRequests {
 			String filePath = ".\\src\\test\\resources\\test-data\\users.json";
 			File file = new File(filePath);
 			
-			ValidatableResponse response1 = given().contentType(ContentType.JSON).
-					body(file).
-					when().post("https://reqres.in/api/users").then().statusCode(201).log().all();
+					given().contentType(ContentType.JSON).body(file).
+					when().post("https://reqres.in/api/users").
+					then().statusCode(201).log().all();
 		
 		} 
 		
@@ -151,7 +162,7 @@ public class PostRequests {
 		
 		@Test
 		public void CreateUserWithPojo() {
-			User user = new User("sayed@toptechschool.us", "sayed", "sadat");
+			User user = new User("sayed8@toptechschool.us", "sayed I", "sadat");
 			
 			
 			Response response = given().contentType(ContentType.JSON).
@@ -159,6 +170,9 @@ public class PostRequests {
 					when().post("https://reqres.in/api/users");
 			
 			
+					
+					
+					
 			response.prettyPrint();
 			System.out.println(response.getStatusCode());
 			

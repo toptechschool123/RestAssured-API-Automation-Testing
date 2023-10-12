@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import io.restassured.response.Response;
 //import static io.restassured.matcher.RestAssuredMatchers.*;
 //import static org.hamcrest.Matchers.*;
-public class GetRequest {
+public class Get_Delete_Requests {
 	
 	/*
 	 * Set authentication --> basic auth/bearer token using headers
@@ -39,32 +39,29 @@ public class GetRequest {
 		System.out.println("response code is " + response.statusCode());
 	}
 	
-	@Ignore
-	@Test
-	public void params() {
-		Response response =	given().params("limit", 1).formParam("email", "sayed.sadatibrahim@gmail.com").auth().basic(secret_key, "").get("https://api.stripe.com/v1/customers");
-		
-		// we can store response int different ways: 
-		// 1: 
-		 //   response.prettyPrint();
-		
-
-		// 2: we can also store the response in a string :
-		  String responseBody =response.asString();
-		System.out.println(responseBody);
-		
-		System.out.println("response code is " + response.statusCode());
-		
-		System.out.println("using params");
-	}
+	
 	@Ignore
 	@Test
 	public void singleUser() {
 		
-	Response response=	given().header("Authorization",secret_key2 ).get("https://api.stripe.com/v1/customers/cus_OgZimuZ3pnxx9q");
+	Response response=	given().header("Authorization",secret_key2 ).get("https://api.stripe.com/v1/customers/cus_OkRYiD5bD2ctXz");
 	
 	response.prettyPeek();
 	
 	}
 
+	
+	@Ignore
+	@Test
+	public void deleteUser() {
+	Response resposne =	given().header("Authorization",secret_key2 ).
+		delete("https://api.stripe.com/v1/customers/cus_OkRYiD5bD2ctXz");
+		
+	resposne.prettyPrint();
+		// we can store response int different ways: 
+		// 1: 
+		 //   response.prettyPrint();
+		
+
+}
 }

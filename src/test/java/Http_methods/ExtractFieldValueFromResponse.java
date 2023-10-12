@@ -17,8 +17,8 @@ public class ExtractFieldValueFromResponse {
 	public static void JsonResponseValidation() {
 
 		Response response = given().auth().basic(secret_key, "").
-				 param("name", "Sayed4")
-				.param("email", "trainer4@toptechschool.us")
+				 param("name", "Liz")
+				.param("email", "trainer@toptechschool.us")
 				 .param("address[line1]", "Seattle WA")
 				 .param("preferred_locales[0]","No")
 				.post("https://api.stripe.com/v1/customers ");

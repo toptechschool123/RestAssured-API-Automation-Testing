@@ -61,7 +61,10 @@ public class BaseClass {
 	public static String postUser() {
 		String postUser = properties.getProperty("allUsersURI");
 		return postUser;
-		
+	}
+	public static String deleteUser() {
+		String deleteUser = properties.getProperty("allUsersURI");
+		return deleteUser;	
 		}
 		
 	public static long getPageLoadTimeOut() {

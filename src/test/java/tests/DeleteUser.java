@@ -13,54 +13,55 @@ import io.restassured.response.Response;
 
 
 @Listeners(utils.Listeners.class)
-public class PostUser extends BaseClass {
+public class DeleteUser extends BaseClass {
 	
-	static String user_id = "cus_OgZimuZ3pnxx9q";
+	static String user_id = "/cus_OjJQVwhSRVakQZ";
 	
 	
-	@BeforeTest
-	public void beforeTest() {
-
-		logger.info("it is before test method");
-
-	}
-
-
-	@Test(priority = 1)
 	public void createUser() {
 
 		Response response = given().auth().basic(secret_key, "")
-				.param("name", "Shakira")
-				.param("email", "Shakira@toptechschool.us")
+				.param("name", "Maiwand")
+				.param("email", "maiwand@toptechschool.us")
 				.param("description", "sdet")
 				.when().post(BaseClass.postUser());
+		
+		response.prettyPrint();
+	}
+
+	@Test
+	public void deletUser() {
+
+		Response response = given().auth().basic(secret_key, "")
+				.when().delete(BaseClass.deleteUser() + user_id);
 			
 
 		response.prettyPrint();
 		logger.info("the status code is  : " + response.getStatusCode());
 		Assert.assertEquals(response.getStatusCode(), 200);
-	
+		logger.info("end of delete method");
 	}
 	
 	
-	@Test (priority =2)
+	
 	public void getSingleUser() {
 		Response response = given().auth().basic(secret_key, "")
 								   .get(BaseClass.getUsers() + user_id );
 		
 		
-
-		logger.info("get all users -api");
+		response.prettyPrint();
+		logger.info("get  user -api");
 
 		String responseBody = response.asString();
 		logger.info("validating response body" + responseBody);
 		logger.info("validating status code"+ response.statusCode());
-		//Assert.assertTrue(false);
+		
+		logger.info("end of getsingleuser method");
 	}
 	
 	
 	
-	@Test(priority = 3)
+
 	public void ValidateJsonResponse() {
 		Response response = given().auth().basic(secret_key, "")
 								   .get(BaseClass.getUsers() + user_id );
@@ -74,10 +75,8 @@ public class PostUser extends BaseClass {
 		logger.info("the user id is for " + json.get("name"));
 		
 		
-		// 2:
-		logger.info(response.jsonPath().getString("address.line1"));
-		logger.info(response.jsonPath().getString("preferred_locales[0]"));
-		logger.info(response.jsonPath().getMap("$").size());
-		logger.info(response.jsonPath().getMap("address").size());
+		logger.info("end of validate method");
+	
+	
 }
 }
