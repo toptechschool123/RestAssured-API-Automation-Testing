@@ -1,6 +1,6 @@
-package Http_methods;
+package validation_tests;
 import static io.restassured.RestAssured.given;
-
+import static org.hamcrest.Matchers.*;
 import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.Ignore;
@@ -10,14 +10,38 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
-public class JsonBodyValidation {
+public class JsonResponseBodyValidation {
 	 public static String secret_key = "sk_test_51MnoCzCG0XLhk2w9oaMABmQRLgcEsLaW6XrjdHCtRTwbxXB7mz55R1TZs8khqiykx6HzrPzlR2c5ap9J3qeShh5D009eT0AHpN";
 	 public static String secret_key2 = "Bearer sk_test_51MnoCzCG0XLhk2w9oaMABmQRLgcEsLaW6XrjdHCtRTwbxXB7mz55R1TZs8khqiykx6HzrPzlR2c5ap9J3qeShh5D009eT0AHpN";
-	public static String user_id = "cus_OnNtYWKE44VDjR";
-	public static String user_name = "Liz";
-	 @Ignore
+	public static String user_id = "cus_Oq0AmPlgnCZtzZ";
+	public static String user_name = "";
+	
+	
+	@Test
+	public void jsonResponseValidation1() {
+		
+		 RestAssured.baseURI = "https://api.stripe.com";
+
+		    //GET operation
+		    given().auth().basic(secret_key, "").
+		    when().get("/v1/customers/" + user_id).
+		    
+		   then().body("address.line1", equalTo("Seattle WA"))
+		   .body("address.line2", equalTo(null)).log().all();
+		  //  then().body("address.line1", hasItems("Seattle WA"))
+		
+		    
+		 //   Note: equalTo and hasItems are Hamcrest matchers
+		 //   which you should statically import from org.hamcrest.Matchers.
+	}
+	
+	
+	
+	
+	
+	@Ignore
 	 @Test
-	public static void jsonBodyValidation() {
+	public static void jsonResponseBodyValidation2() {
 		
 	
 	//base URL
@@ -37,15 +61,16 @@ public class JsonBodyValidation {
     //verify header
     .headers("Connection" , "keep-alive","Server","nginx" );
 }
-	 
+	@Ignore
 	 @Test
-	 public static void jsonBodyValidation2() {
+	 public static void jsonResponseBodyValidation3() {
 			
 	
 		 	RestAssured.baseURI = "https://api.stripe.com";
 		 	RequestSpecification httpRequest = RestAssured.given().auth().basic(secret_key, "");
 		 	Response response = httpRequest.get("/v1/customers/" + user_id);
 
+		 	
 		 	// Retrieve the body of the Response
 		 	ResponseBody body = response.getBody();
 
